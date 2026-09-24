@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1{
+    color: rgb(137, 230, 137);
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+    gap: 10px;
+}
+
+#cep,
+#estado,
+#cidade,
+#bairro,
+#logradouro {
+    box-sizing: border-box;
+    background-color: rgb(137, 230, 137);
+    color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#cep:focus,
+#estado:focus,
+#cidade:focus,
+#bairro:focus,
+#logradouro:focus{
+    background-color: rgb(137, 230, 137);
+
+}
+
+#enviar{
+    background-color: #10B981;
+    border-radius: 10px; 
+    border: 1px solid white;
+    margin: 15px;
+    padding: 8px;
+    width: 150px;
+}
+
+#enviar:hover{
+    background-color: rgb(44, 44, 229);
+    width: 150px;
+    padding: 8px;
+}
+
+#mensagem{
+    color: white;
+    margin: 0;
+    height: 20px;
+}
